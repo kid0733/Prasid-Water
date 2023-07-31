@@ -153,3 +153,31 @@ nav{
 #jar img{
     width: 150px;
 }
+.container-third{
+    margin-top: 150px;
+}
+.blue{
+    color:#6fc151;
+}
+/*About*/
+.about-content{
+    margin-top: 150px;
+}
+.about-flex{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.about-flex img{
+    width: 500px;
+    border-radius: 15px;
+}
+.rhs-about{
+    font-family: 'Montserrat', sans-serif;
+}
+.rhs-about h1{
+    margin-bottom: 25px;
+    color: #6fc151;
+}
