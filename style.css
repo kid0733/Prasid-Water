@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container-bg{
+    background: url(images/HeaderBg.jpg);
+}
+.container-first{
+    height: 100vh;
+    background: url(images/hero-bg.svg );
+    background-size: cover;
+}
+.container-top{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+.nav-elements{
+    display: flex;
+    gap: 35px;
+}
+.nav-elements li a{
+    color: #bff6ab;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-elements li a:hover{
+    color: aliceblue;
+    font-size: 26px;
+    transition: all 0.3s ease;
+}
+.showcase{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lhs a{
+    color: aliceblue;
+    font-family: Anton;
+    display: flex;
+    flex-direction: column;
+    font-size: 96px;
+}
+.lhs a:nth-child(2){
+    padding-left: 50px;
+    transition: all 0.3s ease;
+}
+.lhs a:nth-child(2):hover{
+    color: #bff6ab;
+    transition: all 0.3s ease;
+}
+.lhs a:nth-child(3){
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #509039;
+    padding: 15px;
+    border-radius: 15px;
+    color: #bff6ab;
+    transition:all 0.3s ease;
+}
+.lhs a:nth-child(3):hover{
+    font-size: 24px;
+    transition:all 0.3s ease;
+    color: #509039;
+    background-color: #bff6ab;
+}
+.rhs img{
+    height: 600px;
+    padding-right: 100px;
+    transition: img 0.3s ease;
+}
