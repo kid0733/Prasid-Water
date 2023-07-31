@@ -20,11 +20,11 @@ nav{
     background: url(images/HeaderBg.jpg);
 }
 .container-first{
-    height: 100vh;
+    height: 105vh;
     background: url(images/hero-bg.svg );
     background-size: cover;
 }
-.container-top{
+.container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -86,5 +86,70 @@ nav{
 .rhs img{
     height: 600px;
     padding-right: 100px;
-    transition: img 0.3s ease;
+}
+.container-mid{
+    margin-top: 75px;
+}
+.mid-heading{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    border-bottom: #6d9261 2px solid;
+    
+}
+.mid-heading h1{
+    padding-bottom:15px ;
+}
+.mid-flex{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 300px;
+    height: 100%;
+    box-shadow:
+    0 0 10px #888888a3,
+    0 0 15px #888888a3,
+    0 0 15px #888888a3,
+    0 0 20px #888888a3;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #eaeaeaa3;
+    font-family: 'Montserrat', sans-serif;
+}
+.card img{
+    height: 300px;
+    width: 125px;
+}
+.card p{
+    text-align: center;
+    color: #163f08;
+}
+.card h1{
+    color: #163f08;
+    border-bottom: 2px solid #163f08;;
+}
+.card a{
+    color: #bff6ab;
+    background-color: #6d9261;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.card a:hover{
+    color: #24660e;
+    background-color: #6fc151;
+    transition: all 0.3s ease;
+}
+#jar img{
+    width: 150px;
 }
