@@ -289,3 +289,50 @@ nav{
     text-align: center;
 
 }
+
+/*responsive*/
+@media (max-width: 790px){
+    .container{
+        max-width: 790px;
+    }
+    .container-first{
+        background: none;
+    }
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width: auto;
+        height: auto;
+    }
+    .nav-elements{
+        gap: 14px;
+    }
+    .mid-flex{
+        flex-direction: column;
+    }
+    .rhs{
+        display: none;
+    }
+    .about-flex{
+        flex-direction: column;
+    }
+    .social{
+        flex-direction: column;
+    }
+    .middle-footer,
+    .rhs-footer{
+        display: none;
+    }
+    .about-flex img{
+        width: 90%;
+    }
+    .about-flex{
+        margin: 100px 15px;
+        gap: 15px;
+        
+    }
+}
